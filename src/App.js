@@ -7,7 +7,6 @@ import Search from "./components/users/Search";
 import Alert from "./components/layout/Alert";
 import axios from "axios";
 import About from "./components/pages/About";
-import Test from "./components/layout/Test";
 import "./App.css";
 
 const App = () => {
@@ -15,9 +14,6 @@ const App = () => {
   const [user, setUser] = useState({});
   const [loading, setLoading] = useState(false);
   const [alert, setAlert] = useState(null);
-  // const [test] = useState("hello world");
-
-  // Search Github users
 
   const searchUsers = async (text) => {
     setLoading(true);
@@ -59,7 +55,6 @@ const App = () => {
             path="/"
             render={(props) => (
               <Fragment>
-                {/* <Test test={test} /> */}
                 <div className="container">
                   <Alert alert={alert} />
                   <Search
