@@ -1,6 +1,6 @@
-Code for a React-Test App
+Code for my React-Test App
 
-Link to he Website
+Link to the Website
 
 https://naughty-galileo-51173f.netlify.app
 
