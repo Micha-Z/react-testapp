@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ icon, title }) => {
   return (
-    <nav className="navbar bg-primary">
+    <nav className="navbar bg-dark">
       <h1>
-        <i className={icon} /> {title}
+        <i className={icon} style={{ color: "#ff0037" }} /> {title}
       </h1>
       <ul>
         <li>

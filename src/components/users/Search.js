@@ -35,7 +35,7 @@ const Search = ({ searchUsers, showClear, clearUsers, setAlert }) => {
         />
       </form>
       {showClear && (
-        <button className="btn btn-light btn-block" onClick={clearUsers}>
+        <button className="btn bg-primary btn-block" onClick={clearUsers}>
           Clear
         </button>
       )}
